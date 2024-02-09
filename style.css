@@ -1,0 +1,64 @@
+body{
+    background-image: url(back.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:sans-serif;
+    color: rgb(62, 38, 38);
+}
+.brand{
+    margin-left: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+
+.search input{
+    height: 50px;
+    width: 40vw;
+    background-color: transparent;
+   border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(13, 38, 65);
+    color:rgb(13, 38, 65);
+  
+}
+.search{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input::placeholder{
+    color: rgb(62, 38, 38);
+}
+
+button{
+    margin-top: 20px;
+    height: 40px;
+    width: 13vw;
+    font-size: 15px;
+    border-radius: 16px;
+    background-color: rgb(182, 182, 239);
+    color: rgb(62, 38, 38);
+}
+.detail{
+    margin-right: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.temp{
+    font-size: 50px;
+    margin-right: 40px;
+}
+.weather-icon{
+    height: 100px;
+   
+}
